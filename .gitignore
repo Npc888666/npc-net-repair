@@ -1,0 +1,62 @@
+# ============================================================
+#  Npc 网络急救 · .gitignore
+#  原则：日志、备份、临时文件、编译中间产物一律不进仓库
+# ============================================================
+
+# --- 运行产物 / 日志 / 备份（程序默认写到 C:\ProgramData\NpcNetRepair）---
+*.log
+report_*.txt
+last_verify.json
+backup_*/
+backup_*
+NpcNetRepair_*.log
+
+# --- 临时文件 ---
+*.tmp
+*.nrtmp
+*.bak
+~$*
+*.swp
+*.swo
+*~
+
+# --- Windows 垃圾文件 ---
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+System Volume Information/
+
+# --- macOS / Linux 垃圾文件 ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- 编辑器 / IDE ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- 打包 / 压缩产物 ---
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# --- 本地测试输出 ---
+test-output/
+out/
+dist/
+
+# ============================================================
+#  关于 Npc修复网络.exe：
+#    当前保留在仓库里，方便普通用户直接点击下载。
+#    如果你想“源码与二进制分离”，取消下面这行的注释，
+#    改为把 exe 传到 GitHub Releases（见 README / 上传指南）。
+# ============================================================
+# Npc修复网络.exe
