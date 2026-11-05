@@ -294,9 +294,7 @@ C:\ProgramData\NpcNetRepair\
 ├─ 使用说明.txt             # 给普通用户的三步说明
 ├─ README.md
 ├─ LICENSE
-├─ .gitignore
-├─ GitHub发布文案.md        # 名称 / About / Topics / Release 文案
-└─ GitHub上传指南-新手版.md  # 从零上传到 GitHub 的步骤
+└─ .gitignore
 ```
 
 ---
